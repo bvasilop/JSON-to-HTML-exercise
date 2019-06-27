@@ -19,6 +19,10 @@ const user_profile = {
             description: 'instagram',
             link: 'https://instagram.com/',
         },
+        {
+            description: 'pinterest',
+            link: 'https://pinterest.com/',
+        },
     ],
 };
 
