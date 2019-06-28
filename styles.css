@@ -1,21 +1,25 @@
-body {
-    display: flex;
-    justify-content: center;
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
 }
 .container {
-    border: 0.5rem solid black;
-    width: 75%;
-    background-color: coral;
-    padding: 1rem;
+  border: 0.5rem solid black;
+  width: 30%;
+  background-color: coral;
+  padding: 1rem;
 }
 
 .username {
-    display: flex;
-    justify-content: center;
-    color: blue;
+  display: flex;
+  justify-content: center;
+  color: blue;
 }
 .social-media {
-    display: flex;
-    justify-content: space-between;
-    color: green;
+  list-style: none;
+  color: maroon;
 }
