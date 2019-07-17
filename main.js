@@ -26,9 +26,11 @@ const user_profile = {
     ],
 };
 
-document.querySelector('.username').innerHTML =
+// document.querySelector('.username').innerHTML =
+// user_profile.username + '<br>';
     // user name
-    user_profile.username + '<br>';
+document.querySelector('.username').textContent =
+    user_profile.username;
 
 user_profile.social_media.forEach(function(item) {
 document.querySelector('.social-media').innerHTML +=
